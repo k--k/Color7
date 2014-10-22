@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Color7 with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/maji/Documents/Java/Color7/export/Color7.jar">
+            <manifest>
+                <attribute name="Main-Class" value="Color7"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/Users/maji/Documents/Java/Color7/bin"/>
+        </jar>
+        <!-- delete dir="C:/Users/maji/Documents/Java/Color7/export/Color7_lib"/ -->
+        <!-- mkdir dir="C:/Users/maji/Documents/Java/Color7/export/Color7_lib"/ -->
+    </target>
+</project>
